@@ -34,7 +34,12 @@
   margin: 0 auto 0;
 }
 
-.task {
+.add__input,
+.add__label,
+.todo__tasks-input,
+.todo__tasks-label,
+.completed__tasks-input,
+.completed__tasks-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -74,7 +79,9 @@ button {
 
 /* Heading */
 .title,
-.add_title {
+.add__title,
+.todo__title,
+.completed__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -107,7 +114,7 @@ button {
   margin: 0 0 20px;
 }
 
-  .add__input {
+.add__input {
   width: 318px;
 }
 
@@ -157,7 +164,8 @@ button {
 }
 
 /* Edit Task */
-.item input[type=text] {
+.todo__tasks-input,
+.completed__tasks-input {
   display: none;
 }
 

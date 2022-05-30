@@ -15,9 +15,9 @@
   </header>
   <main class="main">
     <section class="add">
-      <h3 for="new-task" class="add__title title">Add Item</h3>
+      <h3 class="add__title">Add Item</h3>
       <div class="add__content">
-        <input id="new-task" class="add__input task inp-txt" type="text">
+        <input id="new-task" class="add__input inp-txt" type="text">
         <button class="add__btn btn">Add</button>
       </div>
     </section>
@@ -25,16 +25,16 @@
       <h3 class="todo__title title">Todo</h3>
       <ul class="todo__tasks">
         <li class="todo__tasks-item item">
-          <input type="checkbox" class="inp-chb">
-          <label class="task task-label">Pay Bills</label>
-          <input type="text" class="task inp-txt">
+          <input type="checkbox" class="todo__tasks-checkbox inp-chb">
+          <label class="todo__tasks-label task-label">Pay Bills</label>
+          <input type="text" class="todo__tasks-input inp-txt">
           <button class="edit btn">Edit</button>
           <button class="delete btn"><img src="./remove.svg" class="img-x" alt=""></button>
         </li>
         <li class="todo__tasks-item edit-mode item">
-          <input type="checkbox" class="inp-chb">
-          <label class="task task-label">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task inp-txt">
+          <input type="checkbox" class="todo__tasks-checkbox inp-chb">
+          <label class="todo__tasks-label task-label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="todo__tasks-input inp-txt">
           <button class="edit btn">Save</button>
           <button class="delete btn"><img src="./remove.svg" class="img-x" alt=""></button>
         </li>
@@ -42,11 +42,11 @@
     </section>
     <section class="completed">
       <h3 class="completed__title title">Completed</h3>
-      <ul class="completed__tasks completed-tasks">
+      <ul class="completed__tasks">
         <li class="completed__tasks-item item">
-          <input type="checkbox" class="inp-chb" checked>
-          <label class="task task-label">See the Doctor</label>
-          <input type="text" class="task inp-txt">
+          <input type="checkbox" class="completed__tasks-checkbox inp-chb" checked>
+          <label class="completed__tasks-label task-label">See the Doctor</label>
+          <input type="text" class="completed__tasks-input inp-txt">
           <button class="edit btn">Edit</button>
           <button class="delete btn"><img src="./remove.svg" class="img-x" alt=""></button>
         </li>
